@@ -1,2 +1,5 @@
 window.MapNote = class MapNote
-     constructor: (owner) -> @owner = owner
+  constructor: (owner, note) ->
+    @owner = owner
+    @note = note
+    # TODO need timestamps
